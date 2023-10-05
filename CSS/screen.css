@@ -119,22 +119,28 @@ body {
 /* Estilo para la sección "Acerca" (about) */
 .about {
   padding: 50px 0;
+  justify-content: center;
 }
 
 .subtitle {
   color: #001a49;
   font-size: 2rem;
   margin-bottom: 25px;
+  justify-content: center;
+  text-align: center;
 }
 
 .about__paragraph {
   line-height: 1.7;
+  justify-content: center;
+  text-align: center;
 }
 
 .about__main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 
 .about__icons2 {
