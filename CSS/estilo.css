@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Neucha&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Montserrat'
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    height:250vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+}
+#inicio{
+    background-color: black;
+}
+#a1970{
+    background-color: #49538C;
+}
+#a1980{
+    background-color: #F2C166;
+}
+#a1990{
+    background-color: #A3A658;
+}
+#a2000{
+    background-color: #BF3B3B;
+}
+#a2010{
+    background-color: #D76A4D;
+}
+section h2{
+    font-size:50px;
+    letter-spacing:5px;
+    text-align: center;
+}
+.right-content {
+    flex: 1; /* Toma el 100% del ancho disponible para los títulos, párrafos y videos */
+    padding: 20px; /* Añade espacio alrededor de los elementos */
+    text-align: center; /* Centra el contenido horizontalmente */
+  }
+  
+  .parrafo, .video {
+    margin-top: 20px; /* Agrega un espacio entre párrafos y videos */
+  }
+  .D {
+    display: flex;
+    align-items: left;
+  }
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .I {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinea a la derecha */
+  }
+  .contenedor-tiempo {
+    position: fixed;
+    top: 20px; /* Posición fija en la parte superior de la pantalla */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contenedor-tiempo .linea {
+    width: 900px;
+    position: absolute;
+    top: 20px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: -2px;
+  }
+  .fecha {
+    display: inline-block;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:scale(1);
+    transition: background-color, transform .5s linear;
+
+  }
+  .seleccionado{
+    transform:scale(1.5);
+    background-color:black;
+    color: #ffffff;
+    font-weight: bold;
+
+  }
+  
+  
+  
+  
