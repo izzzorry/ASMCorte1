@@ -157,9 +157,10 @@ body {
 }
 
 .about__main {
-  padding-top: 80px;
+  padding-top: 0.05px;
   display: flex;
   width: 90%;
+  height: 90vh;
   margin: 0 auto;
   gap: 1em;
   overflow: hidden;
@@ -176,7 +177,7 @@ body {
   display: grid;
   gap: 1em;
   justify-items: center;
-  width: 260px;
+  width: 300px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -193,7 +194,7 @@ body {
 }
 
 .about__icon {
-  width: 40px;
+  width: 150px;
 }
 .about__icon2 {
   max-width: 320px;
