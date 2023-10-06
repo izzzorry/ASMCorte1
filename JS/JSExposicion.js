@@ -314,8 +314,7 @@ document.addEventListener("DOMContentLoaded", () => {
               } else if (door.id === 15) {
                 ProximoNivel = 6;
               }
-              sectionTexto.style.backgroundColor = "#161616";
-              miSection.style.backgroundColor = "#161616";
+              
               imagen1.src =
                 "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/Z3jV-CuadroNegro.jpeg";
               imagen2.src =
