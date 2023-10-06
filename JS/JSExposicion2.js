@@ -1375,60 +1375,60 @@ document.addEventListener("DOMContentLoaded", () => {
     let doors;
   
     const player = new Player({
-        imageSrc:
-          "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/g310-Abajoo.png",
-        frameRate: 4,
-        animations: {
-          idleRight: {
-            frameRate: 4,
-            frameBuffer: 0.3,
-            loop: true,
-            imageSrc:
-              "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/g310-Abajoo.png"
-          },
-          idleLeft: {
-            frameRate: 4,
-            frameBuffer: 1,
-            loop: true,
-            imageSrc:
-              "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/g310-Abajoo.png"
-          },
-          runRight: {
-            frameRate: 4,
-            frameBuffer: 1,
-            loop: true,
-            imageSrc:
-              "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/oxZS-Derechaa.png"
-          },
-          runLeft: {
-            frameRate: 4,
-            frameBuffer: 1,
-            loop: true,
-            imageSrc:
-              "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/pVd4-Izquierda.png"
-          },
-          enterDoor: {
-            frameRate: 4,
-            frameBuffer: 1,
-            loop: false,
-            imageSrc:
-              "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/JKos-Arriba.png",
-            onComplete: () => {
-              console.log("completado animacion");
-    
-              level++;
-              if (level === 71) level = 1;
-              levels[ProximoNivel].init();
-              player.switchSprite("idleRight");
-              player.preventInput = false;
-            }
-            // gsap.to(overlay, {
-            // opacity: 1
-            //});
-            //}
+      imageSrc:
+        "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/-zjZ-RinghtttttIdle.png",
+      frameRate: 12,
+      animations: {
+        idleRight: {
+          frameRate: 12,
+          frameBuffer: 7,
+          loop: true,
+          imageSrc:
+            "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/-zjZ-RinghtttttIdle.png"
+        },
+        idleLeft: {
+          frameRate: 11,
+          frameBuffer: 7,
+          loop: true,
+          imageSrc:
+            "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/F0d5-LeftttttIdle.png"
+        },
+        runRight: {
+          frameRate: 6,
+          frameBuffer: 16,
+          loop: true,
+          imageSrc:
+            "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/Qw9W-CorrerDerecha.png"
+        },
+        runLeft: {
+          frameRate: 6,
+          frameBuffer: 16,
+          loop: true,
+          imageSrc:
+            "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/esZl-CorrerIZ.png"
+        },
+        enterDoor: {
+          frameRate: 6,
+          frameBuffer: 3,
+          loop: false,
+          imageSrc:
+            "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/CyUs-LefttttttRun.png",
+          onComplete: () => {
+            console.log("completado animacion");
+  
+            level++;
+            if (level === 71) level = 1;
+            levels[ProximoNivel].init();
+            player.switchSprite("idleRight");
+            player.preventInput = false;
           }
+          // gsap.to(overlay, {
+          // opacity: 1
+          //});
+          //}
         }
-      });
+      }
+    });
     let cartes;
     let level = 1;
     let levels = {
