@@ -1667,6 +1667,18 @@ document.addEventListener("DOMContentLoaded", () => {
               id: 3
               //loop: false,
               //autoplay: false
+            }),
+            new Sprite({
+              position: {
+                x: 450,
+                y: 120
+              },
+              imageSrc:
+                "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/7HXj-Decada70.png",
+  
+              id: 40
+              //loop: false,
+              //autoplay: false https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/7HXj-Decada70.png
             })
           ];
         }
@@ -1730,6 +1742,18 @@ document.addEventListener("DOMContentLoaded", () => {
               id: 5
               //loop: false,
               //autoplay: false
+            }),
+            new Sprite({
+              position: {
+                x: 230,
+                y: 20
+              },
+              imageSrc:
+                "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/9Vx7-Decada80.png",
+  
+              id: 40
+              //loop: false,
+              //autoplay: false https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/7HXj-Decada70.png
             })
           ];
         }
@@ -1793,6 +1817,18 @@ document.addEventListener("DOMContentLoaded", () => {
               id: 7
               //loop: false,
               //autoplay: false
+            }),
+            new Sprite({
+              position: {
+                x: 35,
+                y: 260
+              },
+              imageSrc:
+                "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/6MsB-Decada90.png",
+  
+              id: 40
+              //loop: false,
+              //autoplay: false https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/7HXj-Decada70.png
             })
           ];
         }
@@ -1856,6 +1892,18 @@ document.addEventListener("DOMContentLoaded", () => {
               id: 9
               //loop: false,
               //autoplay: false
+            }),
+            new Sprite({
+              position: {
+                x: 90,
+                y: 475
+              },
+              imageSrc:
+                "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/XZRg-Decada2000.png",
+  
+              id: 40
+              //loop: false,
+              //autoplay: false https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/7HXj-Decada70.png
             })
           ];
         }
@@ -1919,6 +1967,18 @@ document.addEventListener("DOMContentLoaded", () => {
               id: 11
               //loop: false,
               //autoplay: false
+            }),
+            new Sprite({
+              position: {
+                x: 300,
+                y: 510
+              },
+              imageSrc:
+                "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/Xcyz-Decada2010.png",
+  
+              id: 40
+              //loop: false,
+              //autoplay: false https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/7HXj-Decada70.png
             })
           ];
         }
