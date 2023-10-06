@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Neucha&display=swap');
+body {
+    background: rgb(22, 22, 22);
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+  }
+  
+  .container__div {
+    display: flex; /* Utilizamos flexbox para colocar los sections en línea */
+  }
+  .contenedor_canvas {
+    flex: 1; /* Esto permite que el canvas-section ocupe todo el espacio disponible */
+    background-color: white; /* Cambia el color de fondo según tus preferencias */
+    padding: 20px; /* Agrega espaciado alrededor del canvas-section */
+  }
+  .text-section {
+    flex: 1; /* Esto permite que el text-section ocupe todo el espacio disponible */
+    background-color:#ffffff; /* Cambia el color de fondo según tus preferencias */
+    padding: 20px; /* Agrega espaciado alrededor del text-section */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .titulo-derecha {
+    font-weight: bold; /* Hace que el texto del título sea en negrita */
+    font-size: 40px; /* Cambia el tamaño del texto del título según tus preferencias */
+    margin-bottom: 0; /* Agrega un espacio entre el título y el texto de descripción */
+  }
+  
+  .descripcion {
+    font-size: 16px; /* Cambia el tamaño del texto de descripción según tus preferencias */
+  }
+  
+  .media-section {
+    clear: both;
+    display: flex; /* Usa Flexbox para organizar las imágenes o videos horizontalmente */
+    justify-content: center; /* Centra los elementos horizontalmente en el section */
+    align-items: center; /* Centra los elementos verticalmente en el section */
+  }
+  
+  /* Estilo para imágenes o videos dentro del media-section */
+  .media-section img,
+  .media-section video {
+    max-width: 100%; /* Ajusta el ancho máximo para que no se desborde del section */
+    height: auto; /* Mantiene la proporción original de la imagen o video */
+    margin: 10px; /* Agrega un espacio entre las imágenes o videos */
+    max-height: 270px; /* Altura máxima para evitar que las imágenes se estiren demasiado */
+    object-fit: cover; /* Controla cómo se ajustan las imágenes dentro de su contenedor */
+    margin-right: 10px;
+  }
+  .size1 {
+    width: 70%;
+  }
+  .enlace-link {
+    flex: 1; /* Esto permite que el text-section ocupe todo el espacio disponible */
+    /* Cambia el color de fondo según tus preferencias */
+    padding: 10px; /* Agrega espaciado alrededor del text-section */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(0, 128, 255);
+  }
+  .nav__img {
+    background-color: transparent;
+  }
+  #imagenBoton {
+    width: 50px; /* Cambia el ancho según tu preferencia */
+    height: 50px; /* Cambia la altura según tu preferencia */
+    margin: 0;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Neucha&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Montserrat'
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    height:250vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+}
+#inicio{
+    background-color: black;
+}
+#a1970{
+    background-color: #49538C;
+}
+#a1980{
+    background-color: #F2C166;
+}
+#a1990{
+    background-color: #A3A658;
+}
+#a2000{
+    background-color: #BF3B3B;
+}
+#a2010{
+    background-color: #D76A4D;
+}
+section h2{
+    font-size:50px;
+    letter-spacing:5px;
+    text-align: center;
+}
+.right-content {
+    flex: 1; /* Toma el 100% del ancho disponible para los títulos, párrafos y videos */
+    padding: 20px; /* Añade espacio alrededor de los elementos */
+    text-align: center; /* Centra el contenido horizontalmente */
+  }
+  
+  .parrafo, .video {
+    margin-top: 20px; /* Agrega un espacio entre párrafos y videos */
+  }
+  .D {
+    display: flex;
+    align-items: left;
+  }
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .I {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinea a la derecha */
+  }
+  .contenedor-tiempo {
+    position: fixed;
+    top: 20px; /* Posición fija en la parte superior de la pantalla */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contenedor-tiempo .linea {
+    width: 900px;
+    position: absolute;
+    top: 20px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: -2px;
+  }
+  .fecha {
+    display: inline-block;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:scale(1);
+    transition: background-color, transform .5s linear;
+
+  }
+  .seleccionado{
+    transform:scale(1.5);
+    background-color:black;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  

@@ -208,6 +208,11 @@ body {
   position: absolute;
   width: 70%;
 }
+
+.pos_cen {
+  position: absolute;
+  width: 70%;
+}
 /* Knowledge */
 
 .knowledge {
