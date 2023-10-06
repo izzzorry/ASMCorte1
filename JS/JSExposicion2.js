@@ -1543,6 +1543,66 @@ document.addEventListener("DOMContentLoaded", () => {
               id: 1
               //loop: false,
               //autoplay: false
+            }),
+            new Sprite({
+              position: {
+                x: 360,
+                y: 110
+              },
+              imageSrc:
+                "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/I71w-texto1970edit.png",
+  
+              id: 50
+              //loop: false,
+              //autoplay: false
+            }),
+            new Sprite({
+              position: {
+                x: 645,
+                y: 110
+              },
+              imageSrc:
+                "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/DkSB-texto1980edit.png",
+  
+              id: 50
+              //loop: false,
+              //autoplay: false
+            }),
+            new Sprite({
+              position: {
+                x: 850,
+                y: 366
+              },
+              imageSrc:
+                "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/dJBJ-texto1990.png",
+  
+              id: 50
+              //loop: false,
+              //autoplay: false
+            }),
+            new Sprite({
+              position: {
+                x: 472,
+                y: 366
+              },
+              imageSrc:
+                "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/FXDZ-texto2000.png",
+  
+              id: 50
+              //loop: false,
+              //autoplay: false
+            }),
+            new Sprite({
+              position: {
+                x: 155,
+                y: 365
+              },
+              imageSrc:
+                "https://uploads.codesandbox.io/uploads/user/3156bf58-da1a-417f-aab0-9f7c712ee73f/hQg6-texto2010.png",
+  
+              id: 50
+              //loop: false,
+              //autoplay: false
             })
           ];
         }
